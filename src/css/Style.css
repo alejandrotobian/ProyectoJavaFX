@@ -1,0 +1,312 @@
+/**
+ *
+ * @author Tobian
+ */
+
+/*Button atras*/
+
+.buttoAtras{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-pref-width: 60px;
+    -fx-pref-height: 28;
+}
+
+.buttoAtras:hover{
+    -fx-font-weight:bold;
+    -fx-background-color:#f1dcc9;
+    -fx-font-size:15;
+    -fx-text-fill:#4b5d67;
+    -fx-background-radius: 6px;    
+    -fx-pref-width: 70px;
+    -fx-pref-height: 35;
+}
+
+.buttoAtras:pressed{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;   
+    -fx-pref-width: 60px;
+    -fx-pref-height: 28;
+}
+
+/*Button de pantalla principal*/
+
+.buttoInicioSesion{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 28px;
+}
+
+.buttoInicioSesion:hover{
+    -fx-font-weight:bold;
+    -fx-background-color:#f1dcc9;
+    -fx-font-size:15;
+    -fx-text-fill:#4b5d67;
+    -fx-background-radius: 6px;    
+    -fx-pref-width: 120px;
+    -fx-pref-height: 35px;
+}
+
+.buttoInicioSesion:pressed{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;   
+    -fx-pref-width: 100px;
+    -fx-pref-height: 25;
+}
+
+/*Button de problemas inisio de sesion*/
+
+.buttoProblemaInicio{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-pref-width: 210px;
+    -fx-pref-height: 28;
+}
+
+.buttoProblemaInicio:hover{
+    -fx-font-weight:bold;
+    -fx-background-color:#f1dcc9;
+    -fx-font-size:15;
+    -fx-text-fill:#4b5d67;
+    -fx-background-radius: 6px;    
+    -fx-pref-width: 220px;
+    -fx-pref-height: 35;
+}
+
+.buttoProblemaInicio:pressed{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;   
+    -fx-pref-width: 200px;
+    -fx-pref-height: 25;
+}
+
+/*Button registro de usuario*/ 
+
+.buttonRegistroNuevo{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-pref-width: 180px;
+    -fx-pref-height: 28;
+}
+
+.buttonRegistroNuevo:hover{
+    -fx-font-weight:bold;
+    -fx-background-color:#f1dcc9;
+    -fx-font-size:15;
+    -fx-text-fill:#4b5d67;
+    -fx-background-radius: 6px;    
+    -fx-pref-width: 200px;
+    -fx-pref-height: 35;
+}
+
+.buttonRegistroNuevo:pressed{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;   
+    -fx-pref-width: 180px;
+    -fx-pref-height: 25;
+} 
+
+/*Button para guardar y limpiar*/ 
+.buttonGuardarLimpiar{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-pref-width: 95px;
+    -fx-pref-height: 28;
+}
+
+.buttonGuardarLimpiar:hover{
+    -fx-font-weight:bold;
+    -fx-background-color:#f1dcc9;
+    -fx-font-size:15;
+    -fx-text-fill:#4b5d67;
+    -fx-background-radius: 6px;    
+    -fx-pref-width: 100px;
+    -fx-pref-height: 35;
+}
+
+.buttonGuardarLimpiar:pressed{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;   
+    -fx-pref-width: 90px;
+    -fx-pref-height: 25;
+}
+/*button pantalla secundaria para navegar */
+.buttonNavegacion{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 50;
+}
+
+.buttonNavegacion:hover{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:15;
+    -fx-text-fill: #f1dcc9;
+    -fx-background-radius: 6px;
+}
+
+.buttonNavegacion:pressed{
+    -fx-font-weight:bold;
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;   
+    -fx-pref-width: 90px;
+    -fx-pref-height: 40px;
+}
+
+/*Button buscar*/
+
+.buttonBuscar{
+    -fx-background-color:#4b5d67;
+    -fx-font-size:13;
+    -fx-text-fill:#FFFFFF;
+    -fx-background-radius: 6px;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 28;
+  
+}
+
+
+
+
+.pane{
+    -fx-background-color:#488A99;
+}
+
+.paneImg{
+    -fx-border-color: #f1dcc9;
+    -fx-border-width:3px 3px 3px 3px ;
+    -fx-border-radius: 6px;
+    
+}
+
+.panaOther{
+    -fx-background-color:#f1dcc9;   
+}
+
+/*textfiel inisio de sesion y password*/ 
+
+.textfielInicioSesion{    
+    -fx-background-radius: 11px;
+    -fx-text-fill:#727077;
+    -fx-font-size:13;
+    -fx-prompt-text-fill: #727077;
+    -fx-font-weight:bold;    
+    -fx-background-color:#ffffff;
+    -fx-border-color:#4b5d67;
+    -fx-border-radius: 12px;    
+    -fx-border-width:3px 3px 3px 3px ;    
+    -fx-pref-width: 398px;
+    -fx-pref-height: 30;         
+}
+
+.textfielInicioSesion:hover{
+    -fx-background-radius: 11px;
+    -fx-text-fill:#727077;
+    -fx-font-size:13;
+    -fx-prompt-text-fill: #727077;
+    -fx-font-weight:bold;    
+    -fx-background-color:#ffffff;
+    -fx-border-color:#4b5d67;
+    -fx-border-radius: 12px;    
+    -fx-border-width:3px 3px 3px 3px ;   
+    -fx-pref-width: 410px;
+    -fx-pref-height: 30;  
+}
+
+.textfielRegistroRecuperacion{    
+    -fx-background-radius: 11px;
+    -fx-text-fill:#727077;
+    -fx-font-size:13;
+    -fx-prompt-text-fill: #727077;
+    -fx-font-weight:bold;    
+    -fx-background-color:#ffffff;
+    -fx-border-color:#4b5d67;
+    -fx-border-radius: 12px;    
+    -fx-border-width:3px 3px 3px 3px ;    
+    -fx-pref-width: 657px;
+    -fx-pref-height: 28;         
+}
+
+.textfielPantallaUno{
+    -fx-background-radius: 11px;
+    -fx-text-fill:#727077;
+    -fx-font-size:13;
+    -fx-prompt-text-fill: #727077;
+    -fx-font-weight:bold;    
+    -fx-background-color:#ffffff;
+    -fx-border-color:#4b5d67;
+    -fx-border-radius: 12px;    
+    -fx-border-width:3px 3px 3px 3px ;
+    -fx-pref-width:220px;
+}
+
+.label{
+    -fx-font-family:fantasy;
+    -fx-font-size:20px;
+    -fx-text-fill:#f1dcc9;
+}
+
+.combobox{
+    -fx-background-radius: 15px;
+    -fx-text-fill:#727077;
+    -fx-font-size:13;
+    -fx-prompt-text-fill: #727077;
+    -fx-font-weight:bold;    
+    -fx-background-color:#ffffff;
+    -fx-border-color:#4b5d67;
+    -fx-border-radius: 12px;    
+    -fx-border-width:3px 3px 3px 3px ;
+    -fx-pref-width:220px;
+}
+
+/*combobox*/ 
+
+.comboboxGrid{
+    -fx-background-radius: 15px;
+    -fx-text-fill:#727077;
+    -fx-font-size:11;
+    -fx-prompt-text-fill: #727077;
+    -fx-font-weight:bold;    
+    -fx-background-color:#ffffff;
+    -fx-border-color:#4b5d67;
+    -fx-border-radius: 12px;    
+    -fx-border-width:3px 3px 3px 3px ;
+    -fx-pref-width:130px;
+}

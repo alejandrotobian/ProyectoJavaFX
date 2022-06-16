@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="730.0" styleClass="pane" stylesheets="@../css/Style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VentanaSecundariaController">
+   <children>
+      <Pane fx:id="paneLateral" layoutX="-200.0" prefHeight="475.0" prefWidth="200.0" styleClass="panaOther" />
+      <Button fx:id="btnInicio" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#btnNavegarPantalla" prefHeight="50.0" prefWidth="100.0" styleClass="buttonNavegacion" text="INICIO" />
+      <Button fx:id="btnPromedio" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#btnNavegarPantalla" prefHeight="50.0" prefWidth="100.0" styleClass="buttonNavegacion" text="PROMEDIO" />
+      <Button fx:id="btnRelojes" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#btnNavegarPantalla" prefHeight="50.0" prefWidth="100.0" styleClass="buttonNavegacion" text="RELOJES" />
+      <Button fx:id="btnUsuarios" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#btnNavegarPantalla" prefHeight="50.0" prefWidth="100.0" styleClass="buttonNavegacion" text="USUARIOS" />
+      <Button fx:id="btnSalir" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#btnSalirPantallaPrincipal" prefHeight="50.0" prefWidth="100.0" styleClass="buttonNavegacion" text="SALIR" />
+      <Pane fx:id="panePromedio" layoutX="149.0" prefHeight="475.0" prefWidth="582.0" styleClass="pane" />
+      <Pane fx:id="paneRelojes" layoutX="149.0" prefHeight="475.0" prefWidth="582.0" styleClass="pane">
+         <children>
+            <TextField fx:id="txtRutaImg" layoutX="14.0" layoutY="14.0" prefHeight="33.0" prefWidth="200.0" promptText="RUTA DE IMAGEN" styleClass="textfielPantallaUno" />
+            <Button fx:id="btnGuardarImg" layoutX="453.0" layoutY="423.0" mnemonicParsing="false" onAction="#btnGuardarInf" styleClass="buttonGuardarLimpiar" text="GUARDAR" />
+            <Pane fx:id="paneImgReloj" layoutX="329.0" layoutY="15.0" prefHeight="200.0" prefWidth="219.0" styleClass="paneImg">
+               <children>
+                  <ImageView fx:id="imgReloj" fitHeight="150.0" fitWidth="153.0" layoutX="33.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <GridPane layoutX="12.0" layoutY="62.0" prefHeight="323.0" prefWidth="225.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ComboBox fx:id="cmbMarcaReloj" prefHeight="25.0" prefWidth="188.0" promptText="MARCA DEL RELOJ" styleClass="combobox" GridPane.rowIndex="1" />
+                  <ComboBox fx:id="cmbCalidadProducto" prefHeight="33.0" prefWidth="182.0" promptText="CALIDAD DEL PRODUCTO" styleClass="combobox" GridPane.rowIndex="2" />
+                  <TextField fx:id="txtNombreReloj" promptText="NOMBRE DEL RELOJ" styleClass="textfielPantallaUno" GridPane.rowIndex="3" />
+                  <TextField fx:id="txtValorProducto" promptText="VALOR DE PRODUCTO" styleClass="textfielPantallaUno" GridPane.rowIndex="4" />
+                  <TextField fx:id="txtValorCliente" prefHeight="11.0" prefWidth="225.0" promptText="VALOR A CLIENTE" styleClass="textfielPantallaUno" GridPane.rowIndex="5" />
+                  <Label text="DATOS DEL RELOJ" />
+               </children>
+            </GridPane>
+            <GridPane layoutX="12.0" layoutY="62.0" prefHeight="323.0" prefWidth="225.0" visible="false">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ComboBox fx:id="cmbIluminacion" prefWidth="150.0" promptText="ILUMINACION" styleClass="combobox" GridPane.rowIndex="3" />
+                  <ComboBox fx:id="cmbCalendario" prefWidth="150.0" promptText="CALENDARIO" styleClass="combobox" GridPane.rowIndex="5" />
+                  <ComboBox fx:id="cmbCronometro" prefWidth="150.0" promptText="CRONOMETRO" styleClass="combobox" GridPane.rowIndex="4" />
+                  <ComboBox fx:id="cmbSumergible" prefWidth="150.0" promptText="SUMERGIBLE" styleClass="combobox" GridPane.rowIndex="6" />
+                  <ComboBox fx:id="cmbAlarma" prefWidth="150.0" promptText="ALARMA" styleClass="combobox" GridPane.rowIndex="2" />
+                  <ComboBox fx:id="cmbHora" prefHeight="25.0" prefWidth="116.0" promptText="HORA" styleClass="combobox" GridPane.rowIndex="1" />
+                  <Label prefHeight="30.0" prefWidth="271.0" text="CARACTERISTICAS">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <Button fx:id="btnNuevoImg" layoutX="329.0" layoutY="423.0" mnemonicParsing="false" onAction="#btnNuevaInf" styleClass="buttonGuardarLimpiar" text="NUEVO" />
+            <Button fx:id="btnBuscarImg" ellipsisString="" layoutX="249.0" layoutY="17.0" mnemonicParsing="false" onAction="#BtnBuscarImg" prefHeight="33.0" prefWidth="64.0" styleClass="buttonBuscar">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true" styleClass="imageViewBuscar">
+                     <image>
+                        <Image url="@../Img/ICONO-LUPA.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </children>
+      </Pane>
+      <Pane fx:id="paneInicio" layoutX="149.0" prefHeight="475.0" prefWidth="582.0" styleClass="pane" visible="false">
+         <children>
+            <TextField fx:id="txtNumeroIdReloj" layoutX="14.0" layoutY="14.0" prefHeight="33.0" prefWidth="200.0" promptText="NUMERO DE ID DEL RELOJ" styleClass="textfielPantallaUno" />
+            <Button layoutX="453.0" layoutY="224.0" mnemonicParsing="false" prefWidth="89.0" styleClass="buttonBuscar" />
+            <Button layoutX="384.0" layoutY="224.0" mnemonicParsing="false" prefWidth="83.0" rotate="1.0" styleClass="buttonBuscar" />
+            <Button fx:id="btnBuscarNumeroIdReloj" layoutX="249.0" layoutY="17.0" mnemonicParsing="false" onAction="#BuscarIdentReloj" prefWidth="72.0" styleClass="buttonBuscar">
+               <graphic>
+                  <ImageView fitHeight="18.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Img/ICONO-LUPA.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <TextArea layoutX="14.0" layoutY="208.0" prefHeight="243.0" prefWidth="225.0" />
+            <Button layoutX="453.0" layoutY="423.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" styleClass="buttonGuardarLimpiar" text="VENDER" />
+            <Button fx:id="btnNuevaVenta" layoutX="329.0" layoutY="423.0" mnemonicParsing="false" onAction="#NuevaVenta" prefHeight="25.0" prefWidth="80.0" styleClass="buttonGuardarLimpiar" text="NUEVO" />
+            <Pane fx:id="paneImg" layoutX="329.0" layoutY="15.0" prefHeight="200.0" prefWidth="219.0" styleClass="paneImg">
+               <children>
+                  <ImageView fx:id="imgBuscarReloj" fitHeight="150.0" fitWidth="153.0" layoutX="33.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+               </children></Pane>
+            <GridPane layoutX="14.0" layoutY="87.0" prefHeight="115.0" prefWidth="225.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField fx:id="txtNombreCliente" prefHeight="33.0" prefWidth="281.0" promptText="NOMBRE DE CLIENTE" styleClass="textfielPantallaUno" />
+                  <TextField fx:id="txtDireccionEnvio" prefHeight="25.0" prefWidth="226.0" promptText="DIRECCION DE ENVIO" styleClass="textfielPantallaUno" GridPane.rowIndex="1" />
+                  <TextField fx:id="txtNumeroContacto" prefHeight="25.0" prefWidth="281.0" promptText="NUMERO DE CONTACTO" styleClass="textfielPantallaUno" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+            <ImageView fitHeight="18.0" fitWidth="21.0" layoutX="463.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Img/icone-fleche.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="18.0" fitWidth="21.0" layoutX="394.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Img/icone-fleche%20-%20copia.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
